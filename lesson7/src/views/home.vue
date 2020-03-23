@@ -1,10 +1,18 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: tianlu.tian
+ * @Date: 2020-03-22 18:31:58
+ * @LastEditors: tianlu.tian
+ * @LastEditTime: 2020-03-23 09:50:13
+ -->
 <template>
   <div id="home">
     <p class="title">这是 HOME 页</p>
     <p class="description">本页面包含的核心关键数据，是服务端计算得出，然后附加到当前渲染上下文中；不是前端通过 ajax 请求获取的。</p>
     <ul>
-      <li>注册总人数： <span class="red"> {{ totalRegister }} </span></li>
-      <li>登录激活总人数： <span class="red">{{ totalActiver }} </span></li>
+      <li>注册总人数999： <span class="red"> {{ totalRegister }} </span></li>
+      <li>登录激活总人数22： <span class="red">{{ totalActiver }} </span></li>
       <li>最高月活人数： <span class="red"> {{ topMouthActiver }} </span></li>
       <li>今日登录人数： <span class="red"> {{ todayLogin }} </span></li>
     </ul>

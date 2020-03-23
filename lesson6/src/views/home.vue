@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: tianlu.tian
+ * @Date: 2020-03-22 18:31:58
+ * @LastEditors: tianlu.tian
+ * @LastEditTime: 2020-03-22 19:55:50
+ -->
 <template>
   <div id="home">
     <p class="title">这是 HOME 页</p>
@@ -26,6 +34,9 @@ export default {
       introduction: 'sssss'
     }
   },
+  created() {
+
+  },      
   computed: {
     // 使用对象展开运算符将 getter 混入 computed 对象中
     ...mapGetters([
