@@ -4,7 +4,7 @@
  * @Author: tianlu.tian
  * @Date: 2020-03-22 18:31:58
  * @LastEditors: tianlu.tian
- * @LastEditTime: 2020-03-23 09:50:13
+ * @LastEditTime: 2020-03-23 10:25:06
  -->
 <template>
   <div id="home">
@@ -30,6 +30,9 @@ export default {
   },
   name: 'home',
   title: 'Home',
+  created() {
+    // this.$store.dispatch('getAllData')
+  },
   data() {
     return {
       introduction: 'sssss'
